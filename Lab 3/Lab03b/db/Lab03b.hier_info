@@ -1,0 +1,95 @@
+|Lab03b
+clock => slow_clock:U0.clock
+reset => slow_clock:U0.reset
+reset => shift_module:U1.reset
+LED[0] << shift_module:U1.shift[0]
+LED[1] << shift_module:U1.shift[1]
+LED[2] << shift_module:U1.shift[2]
+LED[3] << shift_module:U1.shift[3]
+LED[4] << shift_module:U1.shift[4]
+LED[5] << shift_module:U1.shift[5]
+LED[6] << shift_module:U1.shift[6]
+LED[7] << shift_module:U1.shift[7]
+
+
+|Lab03b|slow_clock:U0
+clock => slow_clock.CLK
+clock => count[0].CLK
+clock => count[1].CLK
+clock => count[2].CLK
+clock => count[3].CLK
+clock => count[4].CLK
+clock => count[5].CLK
+clock => count[6].CLK
+clock => count[7].CLK
+clock => count[8].CLK
+clock => count[9].CLK
+clock => count[10].CLK
+clock => count[11].CLK
+clock => count[12].CLK
+clock => count[13].CLK
+clock => count[14].CLK
+clock => count[15].CLK
+clock => count[16].CLK
+clock => count[17].CLK
+clock => count[18].CLK
+clock => count[19].CLK
+clock => count[20].CLK
+clock => count[21].CLK
+clock => count[22].CLK
+clock => count[23].CLK
+reset => count[0].ACLR
+reset => count[1].ACLR
+reset => count[2].ACLR
+reset => count[3].ACLR
+reset => count[4].ACLR
+reset => count[5].ACLR
+reset => count[6].ACLR
+reset => count[7].ACLR
+reset => count[8].ACLR
+reset => count[9].ACLR
+reset => count[10].ACLR
+reset => count[11].ACLR
+reset => count[12].ACLR
+reset => count[13].ACLR
+reset => count[14].ACLR
+reset => count[15].ACLR
+reset => count[16].ACLR
+reset => count[17].ACLR
+reset => count[18].ACLR
+reset => count[19].ACLR
+reset => count[20].ACLR
+reset => count[21].ACLR
+reset => count[22].ACLR
+reset => count[23].ACLR
+reset => slow_clock.ENA
+slow_clk <= slow_clock.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab03b|shift_module:U1
+clock => shift_reg[0].CLK
+clock => shift_reg[1].CLK
+clock => shift_reg[2].CLK
+clock => shift_reg[3].CLK
+clock => shift_reg[4].CLK
+clock => shift_reg[5].CLK
+clock => shift_reg[6].CLK
+clock => shift_reg[7].CLK
+reset => shift_reg[0].ACLR
+reset => shift_reg[1].ACLR
+reset => shift_reg[2].ACLR
+reset => shift_reg[3].ACLR
+reset => shift_reg[4].ACLR
+reset => shift_reg[5].ACLR
+reset => shift_reg[6].ACLR
+reset => shift_reg[7].ACLR
+shift[0] <= shift_reg[0].DB_MAX_OUTPUT_PORT_TYPE
+shift[1] <= shift_reg[1].DB_MAX_OUTPUT_PORT_TYPE
+shift[2] <= shift_reg[2].DB_MAX_OUTPUT_PORT_TYPE
+shift[3] <= shift_reg[3].DB_MAX_OUTPUT_PORT_TYPE
+shift[4] <= shift_reg[4].DB_MAX_OUTPUT_PORT_TYPE
+shift[5] <= shift_reg[5].DB_MAX_OUTPUT_PORT_TYPE
+shift[6] <= shift_reg[6].DB_MAX_OUTPUT_PORT_TYPE
+shift[7] <= shift_reg[7].DB_MAX_OUTPUT_PORT_TYPE
+
+

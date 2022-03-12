@@ -1,0 +1,14 @@
+
+State Machine - |Lab04|SecondMux:SecondMuxand7Seg|present_state
+Name present_state.S3 present_state.S2 present_state.S1 present_state.S0 
+present_state.S0 0 0 0 0 
+present_state.S1 0 0 1 1 
+present_state.S2 0 1 0 1 
+present_state.S3 1 0 0 1 
+
+State Machine - |Lab04|FSM:FSMDisplay|present_state
+Name present_state.Alarm present_state.Set_alarm present_state.Set_time present_state.Time_Now 
+present_state.Time_Now 0 0 0 0 
+present_state.Set_time 0 0 1 1 
+present_state.Set_alarm 0 1 0 1 
+present_state.Alarm 1 0 0 1 

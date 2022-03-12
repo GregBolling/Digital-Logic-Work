@@ -1,0 +1,105 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "LED0",
+					"strict" : false
+				},
+				{
+					"name" : "LED1",
+					"strict" : false
+				},
+				{
+					"name" : "Buzzer",
+					"strict" : false
+				},
+				{
+					"name" : "display[0]",
+					"strict" : false
+				},
+				{
+					"name" : "display[1]",
+					"strict" : false
+				},
+				{
+					"name" : "display[2]",
+					"strict" : false
+				},
+				{
+					"name" : "display[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SevenSeg[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SevenSeg[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SevenSeg[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SevenSeg[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SevenSeg[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SevenSeg[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SevenSeg[6]",
+					"strict" : false
+				},
+				{
+					"name" : "resetin",
+					"strict" : false
+				},
+				{
+					"name" : "Switch6",
+					"strict" : false
+				},
+				{
+					"name" : "Switch5",
+					"strict" : false
+				},
+				{
+					"name" : "Switch7",
+					"strict" : false
+				},
+				{
+					"name" : "Switch2",
+					"strict" : false
+				},
+				{
+					"name" : "Switch1",
+					"strict" : false
+				},
+				{
+					"name" : "PushButton1",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "Switch4",
+					"strict" : false
+				},
+				{
+					"name" : "Switch3",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+|DesignProblem1
+Switch1 => LEDOut.IN1
+Switch1 => x1.IN1
+Switch1 => y1.IN0
+Switch1 => y3.IN0
+Switch2 => x2.IN0
+Switch2 => w2.IN0
+Switch2 => z1.IN0
+Switch2 => y1.IN1
+Switch2 => y2.IN0
+Switch3 => w1.IN1
+Switch3 => x3.IN1
+Switch3 => x2.IN1
+Switch4 => w2.IN1
+Switch4 => x1.IN1
+Switch4 => y1.IN1
+Switch4 => y2.IN1
+Switch5 => w2.IN1
+Switch5 => z1.IN1
+Switch5 => y1.IN1
+Switch5 => y3.IN1
+LEDOut[0] << z1.DB_MAX_OUTPUT_PORT_TYPE
+LEDOut[1] << LEDOut.DB_MAX_OUTPUT_PORT_TYPE
+LEDOut[2] << LEDOut.DB_MAX_OUTPUT_PORT_TYPE
+LEDOut[3] << LEDOut.DB_MAX_OUTPUT_PORT_TYPE
+
+

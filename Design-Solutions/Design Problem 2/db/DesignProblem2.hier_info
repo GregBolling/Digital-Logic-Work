@@ -1,0 +1,44 @@
+|DesignProblem2
+Switch1 => Prod1.IN0
+Switch1 => Prod7.IN0
+Switch1 => Prod11.IN0
+Switch1 => Prod12.IN0
+Switch1 => Prod5.IN0
+Switch2 => Prod7.IN1
+Switch2 => Prod9.IN0
+Switch2 => Prod12.IN1
+Switch2 => Prod13.IN0
+Switch2 => SegG.IN1
+Switch2 => Prod10.IN0
+Switch2 => Prod4.IN0
+Switch2 => Prod2.IN0
+Switch3 => Prod6.IN0
+Switch3 => Prod7.IN1
+Switch3 => Prod10.IN1
+Switch3 => Prod12.IN1
+Switch3 => Prod11.IN1
+Switch3 => SegE.IN1
+Switch3 => Prod9.IN1
+Switch3 => Prod4.IN1
+Switch3 => Prod13.IN1
+Switch3 => Prod5.IN1
+Switch3 => Prod2.IN1
+Switch4 => Prod6.IN1
+Switch4 => Prod11.IN1
+Switch4 => Prod13.IN1
+Switch4 => SegF.IN1
+Switch4 => Prod4.IN1
+Switch4 => Prod1.IN1
+SevenSeg[0] <= SegA.DB_MAX_OUTPUT_PORT_TYPE
+SevenSeg[1] <= SegB.DB_MAX_OUTPUT_PORT_TYPE
+SevenSeg[2] <= SegC.DB_MAX_OUTPUT_PORT_TYPE
+SevenSeg[3] <= SegD.DB_MAX_OUTPUT_PORT_TYPE
+SevenSeg[4] <= SegE.DB_MAX_OUTPUT_PORT_TYPE
+SevenSeg[5] <= SegF.DB_MAX_OUTPUT_PORT_TYPE
+SevenSeg[6] <= SegG.DB_MAX_OUTPUT_PORT_TYPE
+display[0] <= <VCC>
+display[1] <= <GND>
+display[2] <= <GND>
+display[3] <= <GND>
+
+

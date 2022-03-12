@@ -1,0 +1,26 @@
+
+State Machine - |DesignProblem3|SecondMux:SecondMuxand7Seg|present_state
+Name present_state.S3 present_state.S2 present_state.S1 present_state.S0 
+present_state.S0 0 0 0 0 
+present_state.S1 0 0 1 1 
+present_state.S2 0 1 0 1 
+present_state.S3 1 0 0 1 
+
+State Machine - |DesignProblem3|FSM:FSMDisplay|present_state
+Name present_state.AlarmClearSwitch present_state.Alarm11 present_state.Alarm10 present_state.Alarm9 present_state.Alarm8 present_state.Alarm7 present_state.Alarm6 present_state.Alarm5 present_state.Alarm4 present_state.Alarm3 present_state.Alarm2 present_state.Alarm1 present_state.Set_Alarm present_state.Set_Minute present_state.Set_Hour present_state.Time_Now 
+present_state.Time_Now 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+present_state.Set_Hour 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+present_state.Set_Minute 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+present_state.Set_Alarm 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+present_state.Alarm1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+present_state.Alarm2 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+present_state.Alarm3 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+present_state.Alarm4 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+present_state.Alarm5 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+present_state.Alarm6 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+present_state.Alarm7 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+present_state.Alarm8 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+present_state.Alarm9 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+present_state.Alarm10 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+present_state.Alarm11 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+present_state.AlarmClearSwitch 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

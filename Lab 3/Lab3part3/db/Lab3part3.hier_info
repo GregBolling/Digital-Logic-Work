@@ -1,0 +1,16 @@
+|Lab3part3
+clock => present_state~1.DATAIN
+reset => present_state~3.DATAIN
+display[0] << display[0].DB_MAX_OUTPUT_PORT_TYPE
+display[1] << display[1].DB_MAX_OUTPUT_PORT_TYPE
+display[2] << display[2].DB_MAX_OUTPUT_PORT_TYPE
+display[3] << display[3].DB_MAX_OUTPUT_PORT_TYPE
+SevenSeg[0] << <GND>
+SevenSeg[1] << a_g[1].DB_MAX_OUTPUT_PORT_TYPE
+SevenSeg[2] << <GND>
+SevenSeg[3] << a_g[3].DB_MAX_OUTPUT_PORT_TYPE
+SevenSeg[4] << a_g.DB_MAX_OUTPUT_PORT_TYPE
+SevenSeg[5] << <GND>
+SevenSeg[6] << a_g[6].DB_MAX_OUTPUT_PORT_TYPE
+
+

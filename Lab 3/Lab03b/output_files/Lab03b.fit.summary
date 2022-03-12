@@ -1,0 +1,18 @@
+Fitter Status : Successful - Thu Feb 27 00:54:49 2020
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : Lab03b
+Top-level Entity Name : Lab03b
+Family : MAX 10
+Device : 10M02SCU169C8G
+Timing Models : Final
+Total logic elements : 49 / 2,304 ( 2 % )
+    Total combinational functions : 48 / 2,304 ( 2 % )
+    Dedicated logic registers : 33 / 2,304 ( 1 % )
+Total registers : 33
+Total pins : 10 / 130 ( 8 % )
+Total virtual pins : 0
+Total memory bits : 0 / 110,592 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 32 ( 0 % )
+Total PLLs : 0 / 1 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0

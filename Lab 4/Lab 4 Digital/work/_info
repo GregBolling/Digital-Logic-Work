@@ -1,0 +1,325 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/gregm/Desktop/Lab 4 Digital
+Eclockcounter
+Z1 w1583643058
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z7 8C:/Users/gregm/Desktop/Lab 4 Digital/ClockCounter.vhd
+Z8 FC:/Users/gregm/Desktop/Lab 4 Digital/ClockCounter.vhd
+l0
+L18
+VWD3HKRVLMK8zWzcDiKRaC2
+!s100 63X8FVMezed]WV6P0LO`k0
+Z9 OV;C;10.5b;63
+32
+Z10 !s110 1584075870
+!i10b 1
+Z11 !s108 1584075870.000000
+Z12 !s90 -reportprogress|300|-work|work|C:/Users/gregm/Desktop/Lab 4 Digital/ClockCounter.vhd|
+Z13 !s107 C:/Users/gregm/Desktop/Lab 4 Digital/ClockCounter.vhd|
+!i113 1
+Z14 o-work work
+Z15 tExplicit 1 CvgOpt 0
+Aimpl1
+R2
+R3
+R4
+R5
+R6
+DEx4 work 12 clockcounter 0 22 WD3HKRVLMK8zWzcDiKRaC2
+l35
+L27
+VVbIUfXAL<3HUzSjAfcFMU3
+!s100 I@[[ZkHM:g=@nVRTRh?zn3
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Efsm
+Z16 w1583643801
+R2
+R3
+R4
+R5
+R6
+R0
+Z17 8C:/Users/gregm/Desktop/Lab 4 Digital/FSM.vhd
+Z18 FC:/Users/gregm/Desktop/Lab 4 Digital/FSM.vhd
+l0
+L8
+VmhhPhPIMh[:7n0G?TF>RH1
+!s100 YY44nh[:dGNKZnMPd4@m11
+R9
+32
+Z19 !s110 1584075874
+!i10b 1
+Z20 !s108 1584075874.000000
+Z21 !s90 -reportprogress|300|-work|work|C:/Users/gregm/Desktop/Lab 4 Digital/FSM.vhd|
+Z22 !s107 C:/Users/gregm/Desktop/Lab 4 Digital/FSM.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R2
+R3
+R4
+R5
+R6
+DEx4 work 3 fsm 0 22 mhhPhPIMh[:7n0G?TF>RH1
+l41
+L35
+VoDGgA]B;]ElG=CemZ6`]R0
+!s100 :d3bFaAB7`1YnD6Kd>7a;0
+R9
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R14
+R15
+Elab04
+Z23 w1583640501
+R2
+R3
+R4
+R5
+R6
+R0
+Z24 8C:/Users/gregm/Desktop/Lab 4 Digital/Lab04.vhd
+Z25 FC:/Users/gregm/Desktop/Lab 4 Digital/Lab04.vhd
+l0
+L16
+V6VD`63m?f_ez]zmgb=`]31
+!s100 YUhDF]odEdb5S[Zi;Bg6J1
+R9
+32
+Z26 !s110 1584075876
+!i10b 1
+Z27 !s108 1584075876.000000
+Z28 !s90 -reportprogress|300|-work|work|C:/Users/gregm/Desktop/Lab 4 Digital/Lab04.vhd|
+Z29 !s107 C:/Users/gregm/Desktop/Lab 4 Digital/Lab04.vhd|
+!i113 1
+R14
+R15
+Aattachall
+R2
+R3
+R4
+R5
+R6
+DEx4 work 5 lab04 0 22 6VD`63m?f_ez]zmgb=`]31
+l138
+L39
+VQL01?iWT4k?;6Bb5c9SVl1
+!s100 YKMTe?]8f3ZF7:SYEBbNb1
+R9
+32
+R26
+!i10b 1
+R27
+R28
+R29
+!i113 1
+R14
+R15
+Esecondmux
+Z30 w1583641176
+R2
+R3
+R4
+R5
+R6
+R0
+Z31 8C:/Users/gregm/Desktop/Lab 4 Digital/SecondMux.vhd
+Z32 FC:/Users/gregm/Desktop/Lab 4 Digital/SecondMux.vhd
+l0
+L8
+VX^bhFl`7zPjf>3JaC1PLi0
+!s100 MXO_9o=;k_N74@:Bi_Q@50
+R9
+32
+Z33 !s110 1584075879
+!i10b 1
+Z34 !s108 1584075879.000000
+Z35 !s90 -reportprogress|300|-work|work|C:/Users/gregm/Desktop/Lab 4 Digital/SecondMux.vhd|
+Z36 !s107 C:/Users/gregm/Desktop/Lab 4 Digital/SecondMux.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R2
+R3
+R4
+R5
+R6
+DEx4 work 9 secondmux 0 22 X^bhFl`7zPjf>3JaC1PLi0
+l43
+L32
+V;6Q5HlGA41H7OKaaY[:9h2
+!s100 8E8^9lR[<2C@5cWC?:Jg82
+R9
+32
+R33
+!i10b 1
+R34
+R35
+R36
+!i113 1
+R14
+R15
+Etesetbenchsecondmux
+Z37 w1584074725
+R2
+R3
+R4
+R5
+R6
+R0
+Z38 8C:/Users/gregm/Desktop/Lab 4 Digital/TesetbenchSecondMux (3).vhd
+Z39 FC:/Users/gregm/Desktop/Lab 4 Digital/TesetbenchSecondMux (3).vhd
+l0
+L8
+VWb0aHi]X9fc@W`9Fa:Zf]3
+!s100 e_M?eYCM=e1B0O=:NgThA3
+R9
+32
+Z40 !s110 1584075884
+!i10b 1
+Z41 !s108 1584075884.000000
+Z42 !s90 -reportprogress|300|-work|work|C:/Users/gregm/Desktop/Lab 4 Digital/TesetbenchSecondMux (3).vhd|
+Z43 !s107 C:/Users/gregm/Desktop/Lab 4 Digital/TesetbenchSecondMux (3).vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R2
+R3
+R4
+R5
+R6
+DEx4 work 19 tesetbenchsecondmux 0 22 Wb0aHi]X9fc@W`9Fa:Zf]3
+l55
+L11
+Vi809N0VeW<;cM44:M<0F42
+!s100 gel<IhhLm?_OgX@W^=8n@2
+R9
+32
+R40
+!i10b 1
+R41
+R42
+R43
+!i113 1
+R14
+R15
+Etestbenchtwodigitdisplay
+Z44 w1584074762
+R2
+R3
+R4
+R5
+R6
+R0
+Z45 8C:/Users/gregm/Desktop/Lab 4 Digital/TestbenchTwoDigitDisplay.vhd
+Z46 FC:/Users/gregm/Desktop/Lab 4 Digital/TestbenchTwoDigitDisplay.vhd
+l0
+L17
+Vk9:R3?4fLHEY26@TLd>:F2
+!s100 jaTbZC<TNFXWBD?[>j0@E0
+R9
+32
+Z47 !s110 1584075889
+!i10b 1
+Z48 !s108 1584075889.000000
+Z49 !s90 -reportprogress|300|-work|work|C:/Users/gregm/Desktop/Lab 4 Digital/TestbenchTwoDigitDisplay.vhd|
+Z50 !s107 C:/Users/gregm/Desktop/Lab 4 Digital/TestbenchTwoDigitDisplay.vhd|
+!i113 1
+R14
+R15
+Aarch_twodigitdisplay
+R2
+R3
+R4
+R5
+R6
+DEx4 work 24 testbenchtwodigitdisplay 0 22 k9:R3?4fLHEY26@TLd>:F2
+l36
+L20
+VTfD?f9ozldQ5a>bO6Ohdg2
+!s100 ;gDd<f_aY5BVGdDe4Pnh31
+R9
+32
+R47
+!i10b 1
+R48
+R49
+R50
+!i113 1
+R14
+R15
+Etwodigitdisplay
+Z51 w1583633838
+R2
+R3
+R4
+R5
+R6
+R0
+Z52 8C:/Users/gregm/Desktop/Lab 4 Digital/TwoDigitDisplay.vhd
+Z53 FC:/Users/gregm/Desktop/Lab 4 Digital/TwoDigitDisplay.vhd
+l0
+L17
+V<B8dKLANBRHWb7KFVO;nj3
+!s100 PNGh<WU6K539?7ao8WRO[0
+R9
+32
+Z54 !s110 1584075892
+!i10b 1
+Z55 !s108 1584075891.000000
+Z56 !s90 -reportprogress|300|-work|work|C:/Users/gregm/Desktop/Lab 4 Digital/TwoDigitDisplay.vhd|
+Z57 !s107 C:/Users/gregm/Desktop/Lab 4 Digital/TwoDigitDisplay.vhd|
+!i113 1
+R14
+R15
+Aarch_twodigitdisplay
+R2
+R3
+R4
+R5
+R6
+Z58 DEx4 work 15 twodigitdisplay 0 22 <B8dKLANBRHWb7KFVO;nj3
+l29
+L28
+Z59 VFOYViY_]DDHPRbSZT<]^Q2
+Z60 !s100 5HPQE4?=]VzogVdRQZ;RY3
+R9
+32
+R54
+!i10b 1
+R55
+R56
+R57
+!i113 1
+R14
+R15

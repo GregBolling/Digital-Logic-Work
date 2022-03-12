@@ -1,0 +1,45 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Seven_Seg[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Seven_Seg[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Seven_Seg[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Seven_Seg[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Seven_Seg[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Seven_Seg[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Seven_Seg[6]",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

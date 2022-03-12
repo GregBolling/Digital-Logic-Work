@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/gregm/Desktop/Lab 3/Lab03a/Lab03a.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/gregm/Desktop/Lab 3/Lab03a/db/Lab03a.cbx.xml
+design_name = hard_block
+design_name = Lab03a
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, Lab03a, 1
+instance = comp, \Q~output\, Q~output, Lab03a, 1
+instance = comp, \S~input\, S~input, Lab03a, 1
+instance = comp, \R~input\, R~input, Lab03a, 1
+instance = comp, \Q~3\, Q~3, Lab03a, 1
+instance = comp, \Q~input\, Q~input, Lab03a, 1
+instance = comp, \~QUARTUS_CREATED_UNVM~\, ~QUARTUS_CREATED_UNVM~, Lab03a, 1

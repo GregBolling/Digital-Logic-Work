@@ -1,0 +1,81 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "COUT",
+					"strict" : false
+				},
+				{
+					"name" : "BUS_OUT[0]",
+					"strict" : false
+				},
+				{
+					"name" : "BUS_OUT[1]",
+					"strict" : false
+				},
+				{
+					"name" : "BUS_OUT[2]",
+					"strict" : false
+				},
+				{
+					"name" : "BUS_OUT[3]",
+					"strict" : false
+				},
+				{
+					"name" : "started",
+					"strict" : false
+				},
+				{
+					"name" : "done",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "instruction[0]",
+					"strict" : false
+				},
+				{
+					"name" : "start",
+					"strict" : false
+				},
+				{
+					"name" : "instruction[2]",
+					"strict" : false
+				},
+				{
+					"name" : "instruction[1]",
+					"strict" : false
+				},
+				{
+					"name" : "destination[1]",
+					"strict" : false
+				},
+				{
+					"name" : "destination[0]",
+					"strict" : false
+				},
+				{
+					"name" : "BUS_IN[2]",
+					"strict" : false
+				},
+				{
+					"name" : "BUS_IN[1]",
+					"strict" : false
+				},
+				{
+					"name" : "BUS_IN[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+-- Author:     Greg Bolling
+-- Date:       February 19, 2020
+-- Class;      EEL 3701 
+-- Assignment: Lab 03b  Shift Register
+-- Class:      12368
+-- Section     7441
+-- PI Name:    Savvas Ferekides
+-------------------------------------------------------------------------------
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+use ieee.std_logic_signed.all;
+ 
+
+architecture Behavioral of Lab03b is  
+signal shift_reg : std_logic_vector(7 downto 0); 
+signal slow_clk : std_logic; 
+signal count : std_logic_vector(23 DOWNTO 0):= X"000000"; 
+
+component slow_clock is
+	port( 
+			clock, reset : in  STD_LOGIC;           
+			slow_clk     : out  STD_LOGIC); end component; 
+ 
+component shift_module is  
+	port (
+		clock, reset : in  STD_LOGIC;           
+		shift        : out  STD_LOGIC_VECTOR (7 downto 0)); 
+end component; 
+ 
+begin  
+	Q    <= R nor notQ;  
+	notQ <= S nor Q; 
+
+end Behavioral;

@@ -1,0 +1,25 @@
+|DesignProblem4Part2a
+display[0] << <VCC>
+display[1] << <GND>
+display[2] << <GND>
+display[3] << <GND>
+clock => outval[0].CLK
+clock => outval[1].CLK
+clock => outval[2].CLK
+clock => outval[3].CLK
+clock => outval[4].CLK
+clock => outval[5].CLK
+clock => outval[6].CLK
+w => TheRam.RADDR3
+x => TheRam.RADDR2
+y => TheRam.RADDR1
+z => TheRam.RADDR
+a << outval[0].DB_MAX_OUTPUT_PORT_TYPE
+b << outval[1].DB_MAX_OUTPUT_PORT_TYPE
+c << outval[2].DB_MAX_OUTPUT_PORT_TYPE
+d << outval[3].DB_MAX_OUTPUT_PORT_TYPE
+e << outval[4].DB_MAX_OUTPUT_PORT_TYPE
+f << outval[5].DB_MAX_OUTPUT_PORT_TYPE
+g << outval[6].DB_MAX_OUTPUT_PORT_TYPE
+
+

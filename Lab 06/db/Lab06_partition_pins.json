@@ -1,0 +1,81 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "COUT",
+					"strict" : false
+				},
+				{
+					"name" : "BUS_OUT[0]",
+					"strict" : false
+				},
+				{
+					"name" : "BUS_OUT[1]",
+					"strict" : false
+				},
+				{
+					"name" : "BUS_OUT[2]",
+					"strict" : false
+				},
+				{
+					"name" : "BUS_OUT[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Done",
+					"strict" : false
+				},
+				{
+					"name" : "BUS_IN[3]",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "BUS_IN[2]",
+					"strict" : false
+				},
+				{
+					"name" : "BUS_IN[1]",
+					"strict" : false
+				},
+				{
+					"name" : "BUS_IN[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "PAddr[4]",
+					"strict" : false
+				},
+				{
+					"name" : "PCSrc",
+					"strict" : false
+				},
+				{
+					"name" : "PAddr[3]",
+					"strict" : false
+				},
+				{
+					"name" : "PAddr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "PAddr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "PAddr[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

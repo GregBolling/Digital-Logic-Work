@@ -1,0 +1,57 @@
+-------------------------------------------------------------------------------
+-- Author:     Greg Bolling
+-- Date:       March 12, 2020
+-- Class;      EEL 3701 
+-- Assignment: DesignProblem 1 Top Level Entity
+-- Class:      12368
+-- Section     7441
+-- PI Name:    Savvas Ferekides
+-------------------------------------------------------------------------------
+
+library ieee; 
+use ieee.std_logic_1164.all; 
+use ieee.numeric_std.all; 
+use ieee.std_logic_unsigned.all; 
+
+entity DesignProblem1 is
+  port (
+		Switch1      : in  std_logic;  -- A 
+		Switch2      : in  std_logic;  -- B
+		Switch3      : in  std_logic;  -- C
+		Switch4      : in  std_logic;  -- D
+		Switch5      : in  std_logic;  -- E
+		LEDOut       : out std_logic_vector(3 DOWNTO 0) -- WXYZ
+  );
+end DesignProblem1;
+
+
+architecture AttachAll of DesignProblem1 is 
+
+  signal w : std_logic;
+  signal x : std_logic;
+  signal y : std_logic;
+  signal z : std_logic;
+  
+  signal A : std_logic;
+  signal B : std_logic;
+  signal C : std_logic;
+  signal D : std_logic;
+  signal E : std_logic;
+  
+begin 
+    A <= Switch1;
+    B <= Switch2;
+    C <= Switch3;
+    D <= Switch4;
+    E <= Switch4;
+    
+	-- W
+	LEDOut(3) <= ;
+	-- X
+	LEDOut(2) <= ;
+	-- Y
+	LEDOut(1) <= ;
+	-- Z
+	LEDOut(0) <= ;
+
+end AttachAll;

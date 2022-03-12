@@ -1,0 +1,214 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Data/UF/EEL 3701/Quartus Explore/DesignProblem4Part2c
+Edesignproblem4part2c
+Z1 w1584088572
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z7 8C:/Data/UF/EEL 3701/Quartus Explore/DesignProblem4Part2c/DesignProblem4Part2c.vhd
+Z8 FC:/Data/UF/EEL 3701/Quartus Explore/DesignProblem4Part2c/DesignProblem4Part2c.vhd
+l0
+L18
+V9RV>CUV2^T7fT99];jRS@1
+!s100 9`:bC8_K;Kk[[V8Fb:zEd2
+Z9 OV;C;10.5b;63
+32
+Z10 !s110 1585198204
+!i10b 1
+Z11 !s108 1585198204.000000
+Z12 !s90 -reportprogress|300|-work|work|C:/Data/UF/EEL 3701/Quartus Explore/DesignProblem4Part2c/DesignProblem4Part2c.vhd|
+Z13 !s107 C:/Data/UF/EEL 3701/Quartus Explore/DesignProblem4Part2c/DesignProblem4Part2c.vhd|
+!i113 1
+Z14 o-work work
+Z15 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+R5
+R6
+DEx4 work 20 designproblem4part2c 0 22 9RV>CUV2^T7fT99];jRS@1
+l117
+L24
+VcMbW8`IjM5mNk0V5mA`O40
+!s100 Sf2oAA;]hf6Jz^;R4FJ;80
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Aattachall
+R2
+R3
+R4
+R5
+R6
+DEx4 work 20 designproblem4part2c 0 22 [S0@KQHU[8IGX=HZQOV^11
+l32
+L20
+VO40LcN:UGk>zeEF8ePiaL1
+!s100 o4S;_3IcQA[R1]o_Vj5hR0
+R9
+32
+!s110 1584088020
+!i10b 1
+!s108 1584088020.000000
+Z16 !s90 -reportprogress|300|-work|work|C:/Data/UF/EEL 3701/Quartus Explore/DesignProblem4Part2c/TBDesignProblem4_Part_2c.vhd|
+Z17 !s107 C:/Data/UF/EEL 3701/Quartus Explore/DesignProblem4Part2c/TBDesignProblem4_Part_2c.vhd|
+!i113 1
+R14
+R15
+Z18 FC:/Data/UF/EEL 3701/Quartus Explore/DesignProblem4Part2c/TBDesignProblem4_Part_2c.vhd
+w1584088009
+Z19 8C:/Data/UF/EEL 3701/Quartus Explore/DesignProblem4Part2c/TBDesignProblem4_Part_2c.vhd
+Esevenseg
+Z20 w1580951638
+R2
+R3
+R4
+R5
+R6
+R0
+Z21 8C:/Data/UF/EEL 3701/Quartus Explore/DesignProblem4Part2c/SevenSeg.vhd
+Z22 FC:/Data/UF/EEL 3701/Quartus Explore/DesignProblem4Part2c/SevenSeg.vhd
+l0
+L17
+V[Q20zgefLAWPSogDzKW@K1
+!s100 oCJc[16YI47SImVXMOAOX0
+R9
+32
+Z23 !s110 1585198202
+!i10b 1
+Z24 !s108 1585198201.000000
+Z25 !s90 -reportprogress|300|-work|work|C:/Data/UF/EEL 3701/Quartus Explore/DesignProblem4Part2c/SevenSeg.vhd|
+Z26 !s107 C:/Data/UF/EEL 3701/Quartus Explore/DesignProblem4Part2c/SevenSeg.vhd|
+!i113 1
+R14
+R15
+Aarch_sevenseg
+R2
+R3
+R4
+R5
+R6
+DEx4 work 8 sevenseg 0 22 [Q20zgefLAWPSogDzKW@K1
+l27
+L26
+VUGL_AT6`@hJaL^LYKTC[C2
+!s100 GomiRYTFMkaXo^;2d<HTU1
+R9
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R14
+R15
+Eslow_clock
+Z27 w1582868254
+R2
+R3
+R4
+R5
+R6
+R0
+Z28 8C:/Data/UF/EEL 3701/Quartus Explore/DesignProblem4Part2c/slow_clock.vhd
+Z29 FC:/Data/UF/EEL 3701/Quartus Explore/DesignProblem4Part2c/slow_clock.vhd
+l0
+L7
+Ved]T1N66oUC404[JYY;X02
+!s100 MZ4c?G?nVCBXa>M<9nVAb2
+R9
+32
+Z30 !s110 1585198203
+!i10b 1
+Z31 !s108 1585198202.000000
+Z32 !s90 -reportprogress|300|-work|work|C:/Data/UF/EEL 3701/Quartus Explore/DesignProblem4Part2c/slow_clock.vhd|
+Z33 !s107 C:/Data/UF/EEL 3701/Quartus Explore/DesignProblem4Part2c/slow_clock.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R2
+R3
+R4
+R5
+R6
+DEx4 work 10 slow_clock 0 22 ed]T1N66oUC404[JYY;X02
+l15
+L12
+VMVmmkA]Nk@4Tj]<CVaJk;2
+!s100 LCRKfeJdna=GXNFL;8eRl2
+R9
+32
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R14
+R15
+Etbdesignproblem4part2c
+Z34 w1584088202
+R2
+R3
+R4
+R5
+R6
+R0
+R19
+R18
+l0
+L16
+VmMgLUchV[7cDK?36G?8^:3
+!s100 dK8U>Vf1G7F85`9?fa?da1
+R9
+32
+Z35 !s110 1585198205
+!i10b 1
+Z36 !s108 1585198205.000000
+R16
+R17
+!i113 1
+R14
+R15
+Aattachall
+R2
+R3
+R4
+R5
+R6
+Z37 DEx4 work 22 tbdesignproblem4part2c 0 22 mMgLUchV[7cDK?36G?8^:3
+l32
+L20
+Z38 V0S>;oACh4gY4^a@OA2kh41
+Z39 !s100 Ubha<HT0JIF;zndLHKWnR3
+R9
+32
+R35
+!i10b 1
+R36
+R16
+R17
+!i113 1
+R14
+R15

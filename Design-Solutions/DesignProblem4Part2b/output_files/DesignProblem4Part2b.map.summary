@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Fri Apr 03 22:13:48 2020
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : DesignProblem4Part2b
+Top-level Entity Name : DesignProblem4Part2b
+Family : MAX 10
+Total logic elements : 6
+    Total combinational functions : 6
+    Dedicated logic registers : 2
+Total registers : 2
+Total pins : 13
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

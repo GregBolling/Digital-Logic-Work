@@ -1,0 +1,93 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.std_logic_arith.all;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+ 
+entity Lab06 is
+ Port ( 
+          CLK: in  std_logic;
+          reset: in  std_logic;
+		    INSTRUCTION: in  std_logic_vector(2 downto 0);
+		    DESTINATION: in  std_logic_vector(1 downto 0);
+		    Start: in  std_logic;
+          BUS_IN: in  std_logic_vector(3 downto 0);
+          CIN: in  std_logic;
+		    COUT: out std_logic;
+          BUS_OUT: out std_logic_vector(3 downto 0);
+		    Done: out std_logic);
+end Lab06;
+ 
+architecture structural of Lab06 is
+
+ COMPONENT DATAPATH 
+ port ( 
+         CLK : in std_logic;
+			reset : in std_logic;
+			BUS_IN : in std_logic_vector(3 downto 0);
+			CIN : in std_logic;
+			LDA : in std_logic;
+			LDB : in std_logic;
+			SEL1 : in std_logic_vector( 1 downto 0);
+			SEL2 : in std_logic_vector( 1 downto 0);
+			OP: in std_logic_vector(1 downto 0);
+			COUT : out std_logic;
+			BUS_OUT : out std_logic_vector(3 downto 0));
+END COMPONENT;
+  
+COMPONENT CONTROL 
+ port ( 
+			CLK : in std_logic;
+			reset : in std_logic;
+			INSTRUCTION : in std_logic_vector (2 downto 0);
+			DESTINATION: in std_logic_vector (1 downto 0);
+			Start: in std_logic;
+			Done: out std_logic;
+			LDA : out std_logic;
+			SEL2: out std_logic_vector(1 downto 0);
+			LDB: out std_logic;
+			SEL1: out std_logic_vector(1 downto 0);
+			OP : out std_logic_vector(1 downto 0));
+
+end COMPONENT;
+
+
+  signal  SEL1 : std_logic_vector(1 downto 0);
+  signal  SEL2 : std_logic_vector(1 downto 0);
+  signal  LDA : std_logic;
+  signal  LDB : std_logic;
+  signal  OP : std_logic_vector(1 downto 0);
+
+  
+begin
+
+    TheRegDatapath : DATAPATH 
+    port map ( 
+          CLK => CLK, 
+          reset => reset, 
+          BUS_IN => BUS_IN, 
+          CIN => CIN, 
+		  SEL1 => SEL1, 
+		  SEL2 => SEL2, 
+          LDA => LDA, 
+          LDB => LDB, 
+          OP => OP, 
+		  COUT => COUT,
+          BUS_OUT => BUS_OUT);
+	
+	
+ Controller: CONTROL 
+ port map ( 
+          CLK  => CLK, 
+          reset => reset, 
+		  instruction => instruction, 
+		  destination => destination, 
+		  Start => Start, 
+		  SEL1 => SEL1, 
+		  SEL2 => SEL2, 
+          LDA => LDA, 
+          LDB => LDB, 
+          OP => OP, 
+		  Done => Done );
+	
+ end structural;
+    

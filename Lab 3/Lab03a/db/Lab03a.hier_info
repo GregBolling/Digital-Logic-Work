@@ -1,0 +1,6 @@
+|Lab03a
+S => notQ.IN1
+R => Q.IN1
+Q <> Q
+
+

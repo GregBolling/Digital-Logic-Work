@@ -1,0 +1,311 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Data/UF/EEL 3701/Quartus Explore/Lab05
+Egcpu_controller
+Z0 w1586136207
+Z1 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z5 dC:/Users/gregm/Desktop/Lab05
+Z6 8C:/Users/gregm/Desktop/Lab05/gcpu_controller.vhd
+Z7 FC:/Users/gregm/Desktop/Lab05/gcpu_controller.vhd
+l0
+L6
+V1X0EHH0mkPCA>IQH1ghE31
+!s100 Q:?=QI>5fF3ePDgVb0Gcg3
+Z8 OV;C;10.5b;63
+32
+Z9 !s110 1586136235
+!i10b 1
+Z10 !s108 1586136234.000000
+Z11 !s90 -reportprogress|300|-work|work|C:/Users/gregm/Desktop/Lab05/gcpu_controller.vhd|
+Z12 !s107 C:/Users/gregm/Desktop/Lab05/gcpu_controller.vhd|
+!i113 1
+Z13 o-work work
+Z14 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+R3
+R4
+DEx4 work 15 gcpu_controller 0 22 1X0EHH0mkPCA>IQH1ghE31
+l29
+L22
+V6A>lcj2:8L1Y=g;1De?kL3
+!s100 ND4Q=3=GZhemRS^i1kj542
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Egcpu_reg_control
+Z15 w1585785513
+R1
+R2
+R3
+R4
+R5
+Z16 8C:/Users/gregm/Desktop/Lab05/gcpu_reg_control.vhd
+Z17 FC:/Users/gregm/Desktop/Lab05/gcpu_reg_control.vhd
+l0
+L6
+V3=JlbbCbH5d^=H?NjzWkj1
+!s100 lE<gFILL<00P1i^lA7V;:2
+R8
+32
+R9
+!i10b 1
+Z18 !s108 1586136235.000000
+Z19 !s90 -reportprogress|300|-work|work|C:/Users/gregm/Desktop/Lab05/gcpu_reg_control.vhd|
+Z20 !s107 C:/Users/gregm/Desktop/Lab05/gcpu_reg_control.vhd|
+!i113 1
+R13
+R14
+Astructural
+R1
+R2
+R3
+R4
+DEx4 work 16 gcpu_reg_control 0 22 3=JlbbCbH5d^=H?NjzWkj1
+l63
+L21
+Vg>QHD@G<d=^c92]a@2lB>0
+!s100 AI7];mWMG@7XD;P72>CGf1
+R8
+32
+R9
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R13
+R14
+Ereg_alu
+R15
+R1
+R2
+R3
+R4
+R5
+Z21 8C:/Users/gregm/Desktop/Lab05/reg_alu.vhd
+Z22 FC:/Users/gregm/Desktop/Lab05/reg_alu.vhd
+l0
+L6
+Vz4mk;E78U1IXk@B2E<3V33
+!s100 GHU9JIznf>Xf4=1iOKa4i3
+R8
+32
+Z23 !s110 1586136236
+!i10b 1
+Z24 !s108 1586136236.000000
+Z25 !s90 -reportprogress|300|-work|work|C:/Users/gregm/Desktop/Lab05/reg_alu.vhd|
+Z26 !s107 C:/Users/gregm/Desktop/Lab05/reg_alu.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R1
+R2
+R3
+R4
+DEx4 work 7 reg_alu 0 22 z4mk;E78U1IXk@B2E<3V33
+l20
+L16
+V@3W>4On]A>]iC``gd]_zj1
+!s100 `eD87g:VK7c_6e<ziheOO0
+R8
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R13
+R14
+Ereg_datapath
+R15
+R1
+R2
+R3
+R4
+R5
+Z27 8C:/Users/gregm/Desktop/Lab05/reg_datapath.vhd
+Z28 FC:/Users/gregm/Desktop/Lab05/reg_datapath.vhd
+l0
+L6
+V099UNe3_`B<QAG5i5nIYU3
+!s100 EmR<@Ga9h;V:CQNRdlLR`2
+R8
+32
+Z29 !s110 1586136237
+!i10b 1
+Z30 !s108 1586136237.000000
+Z31 !s90 -reportprogress|300|-work|work|C:/Users/gregm/Desktop/Lab05/reg_datapath.vhd|
+Z32 !s107 C:/Users/gregm/Desktop/Lab05/reg_datapath.vhd|
+!i113 1
+R13
+R14
+Astructural
+R1
+R2
+R3
+R4
+DEx4 work 12 reg_datapath 0 22 099UNe3_`B<QAG5i5nIYU3
+l46
+L22
+V><9P8<44?glVlf7EI9BSa2
+!s100 bZzdKYYM<bOj]]STC3@Wf2
+R8
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 1
+R13
+R14
+Etb_reg_alu
+R15
+R1
+R2
+R3
+R4
+R5
+Z33 8C:/Users/gregm/Desktop/Lab05/tb_reg_alu.vhd
+Z34 FC:/Users/gregm/Desktop/Lab05/tb_reg_alu.vhd
+l0
+L6
+Voj2;o>8<mhg0e[^I=<fi43
+!s100 <4iSGF:D=T<aTVBnI6_z51
+R8
+32
+Z35 !s110 1586136434
+!i10b 1
+Z36 !s108 1586136434.000000
+Z37 !s90 -reportprogress|300|-work|work|C:/Users/gregm/Desktop/Lab05/tb_reg_alu.vhd|
+Z38 !s107 C:/Users/gregm/Desktop/Lab05/tb_reg_alu.vhd|
+!i113 1
+R13
+R14
+Abehavior
+R1
+R2
+R3
+R4
+Z39 DEx4 work 10 tb_reg_alu 0 22 oj2;o>8<mhg0e[^I=<fi43
+l32
+L9
+Z40 V1TFQ71U7Jc8Q2RLgiHjY>3
+Z41 !s100 Un`V9RhZn7ke;@Mik[zJ[2
+R8
+32
+R35
+!i10b 1
+R36
+R37
+R38
+!i113 1
+R13
+R14
+Etb_reg_controller
+Z42 w1586136418
+R1
+R2
+R3
+R4
+R5
+Z43 8C:/Users/gregm/Desktop/Lab05/tb_reg_controller.vhd
+Z44 FC:/Users/gregm/Desktop/Lab05/tb_reg_controller.vhd
+l0
+L6
+V1`RanijlE<9bn59_QfQ?E1
+!s100 `0JjjJX0EHQPZ5:Ej:L7L0
+R8
+32
+Z45 !s110 1586136433
+!i10b 1
+Z46 !s108 1586136432.000000
+Z47 !s90 -reportprogress|300|-work|work|C:/Users/gregm/Desktop/Lab05/tb_reg_controller.vhd|
+Z48 !s107 C:/Users/gregm/Desktop/Lab05/tb_reg_controller.vhd|
+!i113 1
+R13
+R14
+Abehavior
+R1
+R2
+R3
+R4
+DEx4 work 17 tb_reg_controller 0 22 1`RanijlE<9bn59_QfQ?E1
+l41
+L9
+VRV[cJaZZ`BZ_[5IgC<88h1
+!s100 0_iGagZU8<OW<On4]OOO[1
+R8
+32
+R45
+!i10b 1
+R46
+R47
+R48
+!i113 1
+R13
+R14
+Etb_reg_datapath
+R15
+R1
+R2
+R3
+R4
+R5
+Z49 8C:/Users/gregm/Desktop/Lab05/tb_reg_datapath.vhd
+Z50 FC:/Users/gregm/Desktop/Lab05/tb_reg_datapath.vhd
+l0
+L6
+VEZ2I3CMeh7NLQ6:OY^b0:3
+!s100 <e5GHBz9W`[o:fbAIb4Pb3
+R8
+32
+R45
+!i10b 1
+Z51 !s108 1586136433.000000
+Z52 !s90 -reportprogress|300|-work|work|C:/Users/gregm/Desktop/Lab05/tb_reg_datapath.vhd|
+Z53 !s107 C:/Users/gregm/Desktop/Lab05/tb_reg_datapath.vhd|
+!i113 1
+R13
+R14
+Abehavior
+R1
+R2
+R3
+R4
+DEx4 work 15 tb_reg_datapath 0 22 EZ2I3CMeh7NLQ6:OY^b0:3
+l44
+L9
+V7:l;H^h6XolS:GoC2MNQh3
+!s100 _[`7?gi`<zIl>kR>_ilC:0
+R8
+32
+R45
+!i10b 1
+R51
+R52
+R53
+!i113 1
+R13
+R14

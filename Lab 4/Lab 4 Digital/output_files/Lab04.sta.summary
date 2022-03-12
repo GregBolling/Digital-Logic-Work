@@ -1,0 +1,113 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clock'
+Slack : -4.771
+TNS   : -62.623
+
+Type  : Slow 1200mV 85C Model Setup 'Clk1Hz'
+Slack : -4.689
+TNS   : -112.862
+
+Type  : Slow 1200mV 85C Model Setup 'PushButton1'
+Slack : -1.683
+TNS   : -1.683
+
+Type  : Slow 1200mV 85C Model Hold 'Clk1Hz'
+Slack : 0.365
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clock'
+Slack : 0.479
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'PushButton1'
+Slack : 1.163
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -52.071
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'PushButton1'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Clk1Hz'
+Slack : -1.487
+TNS   : -68.402
+
+Type  : Slow 1200mV 0C Model Setup 'clock'
+Slack : -4.468
+TNS   : -55.699
+
+Type  : Slow 1200mV 0C Model Setup 'Clk1Hz'
+Slack : -4.290
+TNS   : -104.276
+
+Type  : Slow 1200mV 0C Model Setup 'PushButton1'
+Slack : -1.671
+TNS   : -1.671
+
+Type  : Slow 1200mV 0C Model Hold 'Clk1Hz'
+Slack : 0.325
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clock'
+Slack : 0.453
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'PushButton1'
+Slack : 1.142
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -52.071
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'PushButton1'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Clk1Hz'
+Slack : -1.487
+TNS   : -68.402
+
+Type  : Fast 1200mV 0C Model Setup 'clock'
+Slack : -1.544
+TNS   : -9.175
+
+Type  : Fast 1200mV 0C Model Setup 'Clk1Hz'
+Slack : -1.389
+TNS   : -21.280
+
+Type  : Fast 1200mV 0C Model Setup 'PushButton1'
+Slack : -0.322
+TNS   : -0.322
+
+Type  : Fast 1200mV 0C Model Hold 'Clk1Hz'
+Slack : 0.001
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clock'
+Slack : 0.174
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'PushButton1'
+Slack : 0.509
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -37.205
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'PushButton1'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Clk1Hz'
+Slack : -1.000
+TNS   : -46.000
+
+------------------------------------------------------------

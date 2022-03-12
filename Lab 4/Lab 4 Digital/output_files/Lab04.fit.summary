@@ -1,0 +1,18 @@
+Fitter Status : Successful - Fri Mar 13 13:18:35 2020
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : Lab04
+Top-level Entity Name : Lab04
+Family : MAX 10
+Device : 10M02SCU169C8G
+Timing Models : Final
+Total logic elements : 212 / 2,304 ( 9 % )
+    Total combinational functions : 211 / 2,304 ( 9 % )
+    Dedicated logic registers : 79 / 2,304 ( 3 % )
+Total registers : 79
+Total pins : 26 / 130 ( 20 % )
+Total virtual pins : 0
+Total memory bits : 0 / 110,592 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 32 ( 0 % )
+Total PLLs : 0 / 1 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0

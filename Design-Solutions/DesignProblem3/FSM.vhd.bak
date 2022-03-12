@@ -1,0 +1,182 @@
+library ieee; 
+use ieee.std_logic_1164.all; 
+use ieee.numeric_std.all; 
+use ieee.std_logic_unsigned.all; 
+
+--------------fastclock for sevensegment display------------- 
+
+entity FSM is     
+Port (clock 		       :  in STD_LOGIC; 
+		reset 		       :  in STD_LOGIC; 
+		Clk1Hz 				 :  in std_logic;
+      Switch5            :  in std_logic; -- Activates Alarm / Enable
+      PushButton1        :  in std_logic;
+      PushButton2        :  in std_logic;
+	  AlarmEqualsTimeFSM :  in std_logic;
+      SetAlarmNow	     : out std_logic;
+	  FastMinTime        : out std_logic;
+      FastHourTime       : out std_logic;
+      CntEn              : out std_logic;
+      SelectTime_ALn     : out std_logic;
+      SoundAlarm         : out std_logic;
+      SetLED0Off         : out std_logic;
+      SetLED0On          : out std_logic;
+      SetLed04Sec75Duty  : out std_logic;
+      SsetLED2Sec50Duty  : out std_logic;
+      Led1Out            : out std_logic
+		 );                
+end FSM;                 
+
+architecture Behavioral of FSM is 
+  
+
+type my_fms_states is (Time_Now, Set_Hour, Set_Minute, Set_Alarm, Alarm, AlarmClearSwitch);  
+signal present_state, next_state : my_fms_states;  
+
+signal AlarmEnabled      : std_logic;
+signal AlarmEnabledSet   : std_logic;
+signal AlarmEnabledClear : std_logic;
+
+begin 
+  
+	RegisterProc: process(Clk1Hz, reset)  
+	begin   
+		if(reset = '1') then    
+			present_state <= Time_Now; 
+			AlarmEnabled <= '0';			
+		elsif (Clk1Hz='1' and Clk1Hz'event) then    
+			present_state <= next_state;   
+			if (AlarmEnabledSet = '1') then 
+			    AlarmEnabled <= '1';
+			elsif (AlarmEnabledClear = '1') then
+			    AlarmEnabled <= '0';
+			end if;
+		end if;  
+	end process;   
+	
+	
+ 
+	NextStatesProc: process(present_state, AlarmEqualsTimeFSM, Switch5, PushButton1, PushButton2, WaitNotSame)  
+	begin   
+		AlarmEnabledSet    	<= '0';
+		AlarmEnabledClear  	<= '0';
+		SetAlarmNow	    	<= '0';
+		case present_state is    
+				when  Time_Now =>
+								if(PushButton1 = '1') then         
+									next_state <= Set_Hour;
+								    if(PushButton2 = '1') then         
+									   next_state <= Set_Minute;
+								    elsif (AlarmEnabled = '1' and AlarmEqualsTimeFSM = '1') then      
+									   next_state <= Alarm;
+								    elsif (Switch5 = '1' ) then      
+									   AlarmEnabledSet <= not AlarmEnabled;
+									   SetAlarmNow	    <= not AlarmEnabled;
+									   next_state <= Set_Alarm;
+								    else 
+								       next_state <= Time_Now;
+								    end if; 
+                                end if;									
+								    
+				when Set_Hour =>  
+								if(PushButton1 = '0') then       
+									next_state <= Time_Now;
+								else 
+								   next_state <= Set_Hour;
+								end if;     
+								    
+				when Set_Minute => 
+								if(PushButton2 = '0') then       
+									next_state <= Time_Now;
+								else 
+								   next_state <= Set_Minute;
+								end if;     
+				when Set_Alarm => 
+								if(Switch5 = '0') then       
+									next_state <= Time_Now;
+								else 
+								   next_state <= Set_Alarm;
+								end if;     
+								    
+				when Alarm => 
+								if(Switch5 = '1') then       
+									next_state <= AlarmClearSwitch; --May switch to present state
+									AlarmEnabledClear <= '1';
+								else 
+								   next_state <= Alarm;
+								end if;    
+				when AlarmClearSwitch =>
+								if(Switch5 = '0') then       
+									next_state <= WaitNotSame; --May switch to present state
+								else 
+								   next_state <= AlarmClearSwitch;
+								end if; 
+				when WaitNotSame =>		
+								if(AlarmEqualsTimeFSM = '0') then       
+									next_state <= Time_Now; --May switch to present state
+								else 
+								   next_state <= WaitNotSame;
+								end if; 
+				when others => next_state <= Time_Now;
+ 		end case;  
+	end process; 
+	
+
+	OutputsProc: process(present_state, Switch5, PushButton1, PushButton2, AlarmEqualsTimeFSM
+		  )  
+	begin   
+        Led1Out        <= Switch5;
+        SoundAlarm     <= '0';
+		FastMinTime    <= '0';
+        FastHourTime   <= '0';
+        CntEn          <= '1';
+		SelectTime_ALn <= '1';
+        SetLED0Off         <= '0';
+        SetLED0On          <= '0';
+        SetLed04Sec75Duty  <= '0';
+        SsetLED2Sec50Duty  <= '0';
+		case present_state is    
+				when  Time_Now =>    
+                                  SsetLED2Sec50Duty <= '1';
+								    
+				when Set_Hour =>    
+                                  CntEn          <= '0';
+                                  SetLED0Off        <= '1';
+		                          FastMinTime <= Pushbutton2;  
+								CntEn          <= '0';
+								    
+				when Set_Minute =>     
+				                  SetLED0On <= '1';
+                                  FastHourTime <= Pushbutton1;
+                                  SelectTime_ALn <= '0';
+								CntEn          <= '0';
+								    
+				when Set_Alarm =>     
+				                  SetLED0On <= '1';
+                                  SelectTime_ALn <= '0';
+				when Alarm =>  
+				                  SetLed04Sec75Duty <= '1';
+				                  SoundAlarm <= Switch5;
+								 
+ 		end case;  
+	end process; 
+	
+	--display, 
+	
+	
+	
+	
+--Switch 7 mutes the alarm clock
+--Switch 6 turns the entire clock on/off
+-- Switches 3 and 4 
+
+-- Switches 3,4,6,7
+
+
+
+
+
+	
+
+end Behavioral; 
+  
